@@ -1,0 +1,1 @@
+{"version":2,"defects":{"ApiTest::testRequest":8},"times":{"ApiTest::testRequest":0.006,"ConferenceTest::testAdd":0.002,"ConferenceTest::testGetAll":0,"ConferenceTest::testAddWithMock":0,"ExampleTest::testTrueIsTrue":0,"MockHttpTest::testMockRequest":0}}
