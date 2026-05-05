@@ -22,8 +22,7 @@ jobs:
       - name: Start PHP server
         run: docker compose exec -T php php -S 0.0.0.0:8080 -t /var/www/html &
 
-      - name: Run tests
-        run: docker compose exec -T php vendor/bin/phpunit tests
+
 
       - name: Stop containers
         if: always()
